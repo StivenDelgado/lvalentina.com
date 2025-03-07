@@ -9,21 +9,21 @@ const Videos = () => {
       id: 1,
       title: "Product Launch Campaign",
       thumbnail: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?q=80&w=1470&auto=format&fit=crop",
-      videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual marketing video
+      videoSrc: "https://www.youtube.com/embed/bWe8iyvI72c", // Replace with actual marketing video
       description: "Effective strategies for launching new products with maximum impact"
     },
     {
       id: 2,
       title: "Social Media Strategy",
       thumbnail: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1374&auto=format&fit=crop",
-      videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual marketing video
+      videoSrc: "https://www.youtube.com/embed/WxBDMqdBH44", // Replace with actual marketing video
       description: "Engaging social media campaigns that convert followers to customers"
     },
     {
       id: 3,
       title: "Content Marketing Excellence",
       thumbnail: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1470&auto=format&fit=crop",
-      videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual marketing video
+      videoSrc: "https://www.youtube.com/embed/GfAjtVCJxL4", // Replace with actual marketing video
       description: "Creating valuable content that resonates with your target audience"
     }
   ];
@@ -42,7 +42,7 @@ const Videos = () => {
           {marketingVideos.map((video) => (
             <div key={video.id} className="scroll-reveal flex flex-col items-center">
               {/* iPhone Frame */}
-              <div className="relative mx-auto border-[14px] border-black rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+              <div className="relative mx-auto border-[14px] border-black rounded-[3rem] h-[600px] w-[300px] shadow-xl">
                 {/* iPhone Notch */}
                 <div className="absolute top-0 inset-x-0">
                   <div className="mx-auto h-6 w-40 bg-black rounded-b-3xl"></div>

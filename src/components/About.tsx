@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
+import laura from '@/../public/laura.png'
 
 const About = () => {
   return (
@@ -10,16 +11,18 @@ const About = () => {
           <div className="order-2 lg:order-1 scroll-reveal">
             <span className="text-sm font-semibold text-primary uppercase tracking-wider">SOBRE MÍ</span>
             <h2 className="text-3xl md:text-4xl font-display font-bold mt-3 mb-6">Experta en marketing digital con pasión por los resultados</h2>
-            
+
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>
-                Con más de 8 años de experiencia en el sector, he ayudado a decenas de empresas a alcanzar sus objetivos comerciales a través de estrategias de marketing efectivas y personalizadas.
-              </p>
-              <p>
-                Mi enfoque combina creatividad con datos para desarrollar campañas que no solo captan la atención, sino que generan conversiones tangibles y construyen relaciones duraderas con los clientes.
-              </p>
-              <p>
-                Me especializo en crear estrategias integrales que incluyen creación de contenido persuasivo, gestión de redes sociales, email marketing y optimización para motores de búsqueda.
+                Mi objetivo principal es desarrollar contenido de alta
+                calidad que no solo aporte valor, sino que también
+                genere un impacto significativo y refleje los valores
+                fundamentales de la marca. Mis habilidades y
+                capacidad creativa me capacitan para colaborar con
+                diversas marcas, creando contenido que se alinea
+                perfectamente con su estrategia particular.
+                Actualmente, establezco conexiones con marcas de
+                manera independiente a través de mi portafolio.
               </p>
             </div>
 
@@ -29,19 +32,18 @@ const About = () => {
               <Badge variant="secondary" className="py-1.5">SEO</Badge>
               <Badge variant="secondary" className="py-1.5">Content Marketing</Badge>
               <Badge variant="secondary" className="py-1.5">Social Media</Badge>
-              <Badge variant="secondary" className="py-1.5">Analítica Web</Badge>
-              <Badge variant="secondary" className="py-1.5">Email Marketing</Badge>
               <Badge variant="secondary" className="py-1.5">Publicidad Digital</Badge>
+              <Badge variant="secondary" className="py-1.5">Influencer</Badge>
             </div>
           </div>
 
           <div className="order-1 lg:order-2 scroll-reveal [animation-delay:300ms]">
             <div className="relative">
               <div className="image-reveal rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
-                  alt="Especialista de Marketing" 
-                  className="w-full h-[500px] object-cover object-center"
+                <img
+                  src={laura}
+                  alt="Especialista de Marketing"
+                  className="w-full h-[700px] object-cover object-center"
                   loading="lazy"
                 />
               </div>
@@ -53,7 +55,7 @@ const About = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-semibold">+200</div>
+                    <div className="font-semibold">+20</div>
                     <div className="text-sm text-muted-foreground">Clientes satisfechos</div>
                   </div>
                 </div>
@@ -66,7 +68,7 @@ const About = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-semibold">8+ años</div>
+                    <div className="font-semibold">2+ años</div>
                     <div className="text-sm text-muted-foreground">De experiencia</div>
                   </div>
                 </div>

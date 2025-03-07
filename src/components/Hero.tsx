@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto md:mx-0">
           <div className="flex flex-col space-y-4 text-center md:text-left">
             <span className="inline-block py-1 px-3 rounded-full text-xs font-semibold bg-primary/10 text-primary animate-fade-in [animation-delay:200ms]">
-              Servicios de Marketing Profesional
+              Servicios de Marketing
             </span>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight md:leading-tight tracking-tight animate-fade-in [animation-delay:400ms]">
